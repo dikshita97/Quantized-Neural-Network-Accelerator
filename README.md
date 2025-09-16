@@ -10,10 +10,6 @@ Supported operations:
 
 The overall design implements an array of MVU elements (nominally 8) that can move data between each other via an crossbar interconnect.
 
-See paper: [Bit-Slicing FPGA Accelerator for Quantized Neural Networks, ISCAS 2019](https://ieeexplore.ieee.org/document/8702332)
-
-Developed in conjuction with the [BARVINN](https://github.com/hossein1387/BARVINN) project, which connects the MVU array to a RISC-V-based controller called [pito-riscv](https://github.com/hossein1387/pito_riscv)
-
 ## Running RTL Simulation and Synthesis:
 
 First make sure the Vivado is sourced, example for Vivado 2019.1: 
